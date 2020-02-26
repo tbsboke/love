@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.fragment.ClassroomFragment">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            />
+        <LinearLayout
+            android:id="@+id/center_class"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_below="@+id/slider"
+            >
+            <GridView
+                android:id="@+id/grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center"
+                android:numColumns="4"
+                android:padding="5dp"
+                android:columnWidth="90dp"
+                android:verticalSpacing="5dp"
+                android:background="@color/white"
+                android:stretchMode="columnWidth"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tishi"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textColor="@color/red"
+            android:text="最新资讯"
+            android:layout_below="@+id/center_class"
+            android:gravity="center"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/class_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tishi"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/theme_red"
+        android:title="@string/theme_red"></item>
+    <item android:id="@+id/theme_blue"
+        android:title="@string/theme_blue"></item>
+    <item android:id="@+id/theme_violet"
+        android:title="@string/theme_violet"></item>
+    <item android:id="@+id/other"
+        android:title="更多"></item>
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    >
+    <ImageView
+        android:id="@+id/grid_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:src="@drawable/riji"
+        />
+    <TextView
+        android:id="@+id/grid_title"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="日记"
+        android:gravity="center"
+        android:layout_below="@+id/grid_image"
+        />
+</RelativeLayout>

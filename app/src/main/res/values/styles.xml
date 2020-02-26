@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!--通知栏-->
+        <item name="colorPrimaryDark">@color/theme</item>
+        <!--窗体颜色-->
+        <item name="android:windowBackground">@color/windowbg</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimary">@color/theme</item>
+        <!--底部颜色-->
+        <item name="android:navigationBarColor">@color/theme</item>
+    </style>
+
+    <style name="SplashActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/love</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/list</item>
+    </style>
+    <style name="App_Red" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!--通知栏-->
+        <item name="colorPrimaryDark">@color/App_Red</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimary">@color/App_Red</item>
+        <!--窗体颜色-->
+        <item name="android:windowBackground">@color/windowbg</item>
+        <!--底部颜色-->
+        <item name="android:navigationBarColor">@color/App_Red</item>
+    </style>
+    <!--紫色主题-->
+    <style name="App_Violet" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!--通知栏-->
+        <item name="colorPrimaryDark">@color/App_Violet</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimary">@color/App_Violet</item>
+        <!--窗体颜色-->
+        <item name="android:windowBackground">@color/windowbg</item>
+        <!--底部颜色-->
+        <item name="android:navigationBarColor">@color/App_Violet</item>
+    </style>
+
+    <!--蓝色主题-->
+    <style name="App_blue" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!--通知栏-->
+        <item name="colorPrimaryDark">@color/App_blue</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimary">@color/App_blue</item>
+        <!--窗体颜色-->
+        <item name="android:windowBackground">@color/windowbg</item>
+        <!--底部颜色-->
+        <item name="android:navigationBarColor">@color/App_blue</item>
+    </style>
+</resources>

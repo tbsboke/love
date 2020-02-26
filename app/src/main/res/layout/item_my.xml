@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--
+        android:adjustViewBounds="true"
+        通过调整ImageView的界限来保持图片的宽高比例
+        -->
+    <ImageView
+        android:id="@+id/imageview_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/riji"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/imageview_top"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:textColor="@color/theme"
+        android:text="你好"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
